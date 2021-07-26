@@ -1,0 +1,642 @@
+﻿<!Doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" />
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Nichloas HomePage</title>
+    <link rel="bookmark"  type="image/x-icon"  href="http://www.bestyouhui.com/images/engine_128X128.ico"/>
+    <link rel="shortcut icon" href="http://www.bestyouhui.com/images/engine_128X128.ico">
+    <style type="text/css">
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td
+        {
+            margin: 0;
+            padding: 0;
+        }
+        html
+        {
+            color: #000;
+            overflow-y: scoll;
+            overflow: -moz-scrollbars-vertical;
+        }
+        body, button, input, select, textarea
+        {
+            font-size: 12px;
+            font-family: arial,\5b8b\4f53,sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6
+        {
+            font-size: 100%;
+        }
+        em
+        {
+            font-style: normal;
+        }
+        small
+        {
+            font-size: 12px;
+        }
+        ul, ol
+        {
+            list-style: none;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:hover
+        {
+            text-decoration: underline;
+        }
+        legend
+        {
+            color: #000;
+        }
+        fieldset, img
+        {
+            border: 0;
+        }
+        button, input, select, textarea
+        {
+            font-size: 100%;
+        }
+        table
+        {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        img
+        {
+            -ms-interpolation-mode: bicubic;
+        }
+        textarea
+        {
+            resize: vertical;
+        }
+        .left
+        {
+            float: left;
+        }
+        .right
+        {
+            float: right;
+        }
+        .overflow
+        {
+            overflow: hidden;
+        }
+        .hide
+        {
+            display: none;
+        }
+        .block
+        {
+            display: block;
+        }
+        .inline
+        {
+            display: inline;
+        }
+        .error
+        {
+            color: #F00;
+            font-size: 12px;
+        }
+        label, button
+        {
+            cursor: pointer;
+        }
+        .grid-5, .grid-30, .grid-39, .grid-42, .grid-50, .grid-56, .grid-62, .grid-71, .grid-73, .grid-92, .grid-98
+        {
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .grid-5
+        {
+            width: 50px;
+        }
+        .grid-30
+        {
+            width: 300px;
+        }
+        .grid-39
+        {
+            width: 390px;
+        }
+        .grid-42
+        {
+            width: 420px;
+        }
+        .grid-50
+        {
+            width: 500px;
+        }
+        .grid-56
+        {
+            width: 560px;
+        }
+        .grid-62
+        {
+            width: 620px;
+        }
+        .grid-71
+        {
+            width: 710px;
+        }
+        .grid-73
+        {
+            width: 730px;
+        }
+        .grid-92
+        {
+            width: 920px;
+        }
+        .grid-98
+        {
+            width: 980px;
+        }
+        .clearfix:after
+        {
+            content: '\20';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+        .clearfix
+        {
+            zoom: 1;
+        }
+        .clear
+        {
+            clear: both;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            visibility: hidden;
+            overflow: hidden;
+        }
+        .wordwrap
+        {
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+        pre.wordwrap
+        {
+            white-space: pre-wrap;
+        }
+        body
+        {
+            text-align: center;
+        }
+        body, form, #s_fm
+        {
+            position: relative;
+        }
+        td
+        {
+            text-align: left;
+        }
+        img
+        {
+            border: 0;
+        }
+        #u
+        {
+            color: #999;
+            padding: 4px 10px 5px 0;
+            text-align: right;
+        }
+        #u a
+        {
+            color: #00c;
+            text-decoration: underline;
+            margin: 0 5px;
+        }
+        #u a.last
+        {
+            margin-right: 0;
+        }
+        #m
+        {
+            width: 680px;
+            margin: 0 auto;
+        }
+        #nv
+        {
+            margin: 0 0 5px;
+            _margin-bottom: 4px;
+            padding: 2px 0 0;
+            text-align: left;
+            text-indent: 72px;
+        }
+        #nv a, #nv b
+        {
+            margin-left: 12px;
+        }
+        #nv a, #nv b, .btn, #lk
+        {
+            font-size: 14px;
+        }
+        #s_fm
+        {
+            text-align: left;
+            padding-left: 61px;
+            z-index: 300;
+            height: 35px;
+        }
+        #kw, .btn, .btn_wr, #mCon
+        {
+            background: url(http://su.bdimg.com/static/superpage/img/spis_9762e054.png) no-repeat #fff;
+        }
+        #kw
+        {
+            width: 529px;
+            height: 22px;
+            padding: 4px 7px;
+            padding: 6px 7px 2px\9;
+            font: 16px arial;
+            border: 1px solid #cdcdcd;
+            border-color: #9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+            vertical-align: top;
+            outline: none;
+        }
+        .btn
+        {
+            width: 95px;
+            height: 32px;
+            padding: 0;
+            padding-top: 2px\9;
+            border: 0;
+            background-position: 0 -35px;
+            background-color: #ddd;
+            cursor: pointer;
+        }
+        .btn_h
+        {
+            background-position: -100px -35px;
+        }
+        #kw, .btn_wr
+        {
+            margin: 0 3px 0 0;
+        }
+        .btn_wr
+        {
+            background-position: -202px -33px;
+            width: 97px;
+            height: 34px;
+            display: inline-block;
+            _margin-top: 1px;
+        }
+        #lk
+        {
+            margin: 33px 0;
+        }
+        #lk span
+        {
+            font: 14px "\5b8b\4f53";
+        }
+        #lh
+        {
+            margin: 16px 0 5px;
+            word-spacing: 3px;
+        }
+        #mCon
+        {
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            height: 15px;
+            line-height: 15px;
+            width: 25px;
+            cursor: pointer;
+            padding: 0 16px 0 0;
+            background-position: right -206px;
+        }
+        #mCon span
+        {
+            color: #00c;
+            cursor: default;
+            display: block;
+        }
+        #mCon .hw
+        {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #mMenu
+        {
+            width: 56px;
+            border: 1px solid #9B9B9B;
+            list-style: none;
+            position: absolute;
+            right: 2px;
+            top: 28px;
+            display: none;
+            background: #fff;
+            box-shadow: 1px 1px 2px #ccc;
+            -moz-box-shadow: 1px 1px 2px #ccc;
+            -webkit-box-shadow: 1px 1px 2px #ccc;
+            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color="#cccccc")\9;
+        }
+        #mMenu a, #mMenu a:visited
+        {
+            color: #00C;
+            width: 100%;
+            height: 100%;
+            display: block;
+            line-height: 22px;
+            text-indent: 6px;
+            text-decoration: none;
+            filter: none\9;
+        }
+        #mMenu a:hover
+        {
+            background: #ebebeb;
+        }
+        #mMenu .ln
+        {
+            height: 1px;
+            background: #ebebeb;
+            overflow: hidden;
+            font-size: 1px;
+            line-height: 1px;
+            margin-top: -1px;
+        }
+        #cp, #cp a
+        {
+            color: #77c;
+        }
+        #tb_mr
+        {
+            color: #00C;
+            cursor: pointer;
+            position: relative;
+            z-index: 200;
+        }
+        #tb_mr b
+        {
+            font-weight: normal;
+        }
+        #nv a, #tb_mr b
+        {
+            text-decoration: underline;
+        }
+        #nv a
+        {
+            color: #00C;
+        }
+        #hwr_div, #loading
+        {
+            z-index: 3000;
+        }
+        #mHolder
+        {
+            display: none;
+        }
+        .user-name-top
+        {
+            cursor: pointer;
+            line-height: 20px;
+            color: #00C;
+            font-weight: bold;
+            padding-right: 11px;
+            background: url(http://su.bdimg.com/static/superpage/img/spis_9762e054.png) no-repeat right -221px;
+        }
+        html
+        {
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+        .main
+        {
+            display: none;
+        }
+        #s_feed
+        {
+            display: none;
+        }
+        #s_main
+        {
+            display: block;
+            margin: 0 auto;
+        }
+        .main
+        {
+            text-align: left;
+            width: 820px;
+        }
+        body
+        {
+            cursor: default;
+        }
+        .s-nori .s-nori-nav
+        {
+            float: left;
+            height: 20px;
+            margin: 4px 8px 3px 0;
+            position: relative;
+            vertical-align: middle;
+            width: 146px;
+            border: 1px dotted #fff;
+        }
+        .s-nori .s-nav-name em
+        {
+            color: #0360AF;
+            display: inline-block;
+            font-size: 14px;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+            padding-left: 3px;
+            float: left;
+            max-width: 113px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            _width: 98px;
+            text-decoration: none;
+        }
+        .mod-pk-nav
+        {
+            border: 1px solid #eee;
+            position: relative;
+        }
+        .s-nori {
+position: relative;
+width: 818px;
+padding: 0;
+}
+#s_wrap .main .s-container {
+float: left;
+width: 818px;
+background-color: #fff;
+}
+#s_wrap .mod-main-old .mod-pk-nav {
+margin: 0 0 12px;
+}
+#s_wrap .main .s-mod {
+float: left;
+}
+.mod-main-old .s-mod {
+margin: 0 0 12px;
+}
+body, button, input, select, textarea {
+font-size: 12px;
+font-family: arial,宋体b8b\4f53,sans-serif;
+}
+ul, ol {
+list-style: none;
+}
+.s-nori .s-nori-navs {
+padding: 1px 10px 1px 10px;
+float: left;
+width: 785px;
+_padding-right: 1px;
+}
+    </style>
+</head>
+<body>
+    <p id="u" class="s-weather-border">
+        <div id="m" style="width: 720px">
+            <p id="lg">
+                <a href="http://www.baidu.com/s?wd=nba" target="_blank"><img src="http://www.bestyouhui.com/images/logo.jpg" width="240"
+                    height="165" ></a></p> 
+            <p id="nv">
+                <a href="http://news.baidu.com">新闻</a><b>网页</b><a href="http://tieba.baidu.com">贴吧</a><a
+                    href="http://zhidao.baidu.com">知道</a><a href="http://music.baidu.com">音乐</a><a href="http://image.baidu.com">图片</a><a
+                        href="http://video.baidu.com">视频</a><a href="http://map.baidu.com">地图</a><a href="http://baike.baidu.com">百科</a><a
+                            href="http://wenku.baidu.com">文库</a><a style="font-family: \5b8b\4f53;" href="http://www.baidu.com/more" />更多>></a></p>
+            <div id="s_fm">
+                <form name="f" id="s_ps_form" action="http://www.baidu.com/s" onsubmit="javascript:F.call('ps/sug','pssubmit');">
+                <input type="text" name="wd" id="kw" maxlength="100" style="width: 474px;"><input
+                    type="hidden" name="rsv_spt" value="1">
+                <input type="hidden" name="issp" value="1"><input type="hidden" name="rsv_bp" value="0"><input
+                    type="hidden" name="ie" value="utf-8"><input type="hidden" name="tn" value="baiduhome_pg"><span
+                        class="btn_wr"><input type="submit" value="百度一下" id="su" class="btn" onmousedown="this.className='btn btn_h'"
+                            onmouseout="this.className='btn'"></span></form>
+            </div>             
+            <p id="lm">
+            </p>
+        </div>
+
+        <div id="s_wrap" style="margin: 5px auto auto; padding-bottom: 1px;">
+            <div id="s_main" class="main mod-main-old clearfix">
+                <div id="s_modules">
+                    <div style="" isviewmod="" class="mod-sc s-mod mod-pk-nav" id="s_mod_nav" data-modid="1">
+                        <a name="shortcut" class="s-mod-hida" id="shortcut">&nbsp;</a>
+                        <div class="s-container">
+                            <div class="s-content" id="s_mod_nav_content" style="text-align: center;">
+                                <div class="s-nori" id="s_nav_area">
+                                    <ul class="s-nori-navs" id="s_nori_navs_0">
+                                        <li class="s-nori-nav"><a href="https://blog.csdn.net/" class="s-nav-name" target="_blank"
+                                            title="CSDN blog" hidefocus><em class="sc-dragitem">CSDN 博客</em></a> </li>
+                                        <li class="s-nori-nav"><a href="http://www.cnblogs.com/cate/android/"
+                                            class="s-nav-name" target="_blank" title="cnblogs" hidefocus><em class="sc-dragitem">cnblogs博客</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.2cto.com/kf/yidong/" class="s-nav-name"
+                                            target="_blank" title="2cto" hidefocus><em class="sc-dragitem">2cto博客</em></a></li>
+                                        <li id="s_nav_7250345" class="s-nori-nav"><a href="http://www.iteye.com/blogs"
+                                            class="s-nav-name" target="_blank" title="iteye" hidefocus><em class="sc-dragitem">iteye博客</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://blog.chinaunix.net/" class="s-nav-name"
+                                            target="_blank" title="chinaunix" hidefocus><em class="sc-dragitem">chinaunix</em></a></li>
+                                        
+                                        
+                                        
+                                        <li class="s-nori-nav"><a href="http://bbs.csdn.net/home"
+                                            class="s-nav-name" target="_blank" title="CSDN BBS" hidefocus><em class="sc-dragitem">CSDN BBS</em></a></li>
+                                        <li class="s-nori-nav"><a href="https://github.com/search?utf8=%E2%9C%93&q=qcomm&type=Repositories&ref=searchresults"
+                                            class="s-nav-name" target="_blank" title="github" hidefocus><em class="sc-dragitem">github</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.oschina.net/" class="s-nav-name" target="_blank"
+                                            title="oschina" hidefocus><em class="sc-dragitem">oschina</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.techpowerup.com/" class="s-nav-name"
+                                            target="_blank" title="techpowerup" hidefocus><em class="sc-dragitem">techpowerup</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.tomshardware.com/articles/" class="s-nav-name" target="_blank"
+                                            title="tomshardware" hidefocus><em class="sc-dragitem">tomshardware</em></a></li>   
+
+
+                                        <li id="s_nav_2990805" class="s-nori-nav"><a href="http://www.cefhost.cn/" class="s-nav-name"
+                                            target="_blank" title="cefhost" hidefocus><em class="sc-dragitem">优易主机</em></a></li>
+                                        <li class="s-nori-nav"><a href="https://ntt-co-jp.club/" class="s-nav-name" target="_blank"
+                                            title="*pn" hidefocus><em class="sc-dragitem">*pn</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.anandtech.com/bench/Product/203?vs=363"
+                                            class="s-nav-name" target="_blank" title="anandtech" hidefocus><em class="sc-dragitem">anandtech</a> </li>
+                                        <li class="s-nori-nav"><a href="http://www.cpubenchmark.net/" class="s-nav-name"
+                                            target="_blank" title="cpumark" hidefocus><em class="sc-dragitem">cpumark</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.cnet.com/news/" class="s-nav-name" target="_blank"
+                                            title="cnet" hidefocus><em class="sc-dragitem">cnet</em></a></li>  
+
+                                        <li class="s-nori-nav"><a href="http://forum.51nb.com/forum-1-1.html"
+                                            class="s-nav-name" target="_blank" title="专门网" hidefocus><em class="sc-dragitem">专门网</em></a></li>                                        
+                                        <li class="s-nori-nav"><a href="http://bbs.pceva.com.cn/forum.php?mod=guide&view=new" class="s-nav-name" target="_blank"
+                                            title="pc绝对领域" hidefocus><em class="sc-dragitem">pc绝对领域</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.baidu.com/s?wd=site%3Abbs.pcbeta.com+d3h" class="s-nav-name" target="_blank"
+                                            title="远景论坛" hidefocus><em class="sc-dragitem">远景论坛</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://we.poppur.com/forum-298-1.html" class="s-nav-name" target="_blank"
+                                            title="电脑新生代" hidefocus><em class="sc-dragitem">电脑新生代</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://club.autohome.com.cn/bbs/forum-c-2896-1.html" class="s-nav-name" target="_blank"
+                                            title="昂卡拉论坛" hidefocus><em class="sc-dragitem">昂科拉论坛</em></a></li>
+
+
+                                        <li class="s-nori-nav"><a href="http://www.etao.com/" class="s-nav-name" target="_blank"
+                                            title="一淘网" hidefocus><em class="sc-dragitem">一淘网</em></a></li>
+                                        <li class="s-nori-nav"><a href="https://www.jd.com/" class="s-nav-name" target="_blank"
+                                            title="京东" hidefocus><em class="sc-dragitem" style="color: #c00;">京东</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://searchex.yixun.com/html?path=705740t705750" class="s-nav-name" target="_blank"
+                                            title="易迅数码" hidefocus><em class="sc-dragitem">易迅数码</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.amazon.cn/" class="s-nav-name" target="_blank"
+                                            title="亚马逊" hidefocus><em class="sc-dragitem">亚马逊</em></a></li>
+                                        <li class="s-nori-nav"><a href="http://www.boxz.com/top/icson.shtml"
+                                            class="s-nav-name" target="_blank" title="盒子比价" hidefocus><em class="sc-dragitem">盒子比价</em></a></li>
+
+
+                                         
+
+
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div><form action="http://www.google.com/search" method="get">   
+              <input name="ie" value="UTF-8" type="hidden" />   
+              <input size="30" name="q"   type="text" style="width: 485px;height:30px"/>   
+              <input name="Search" value="Google Search" type="submit"  style="width: 96px;height:32px"/>
+        </form></div></br> </div>
+    </p>
+
+        
+<div style="display: block;margin: 1px auto auto;text-align: left;width: 820px;padding-bottom: 6px;">
+<p >tar参数:&nbsp;&nbsp; &nbsp;&nbsp;
+-z ： 是否需要用gzip压缩；&nbsp;&nbsp; &nbsp;&nbsp;
+-c ： 创建； &nbsp;&nbsp; &nbsp;&nbsp;
+-x ： 解压；<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-v： 压缩中显示文件；&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-f： 在f后面立即接文件名，不能再加参数<br>
+ 
+===压缩==
+ &nbsp;&nbsp; &nbsp;&nbsp; tar &nbsp;&nbsp;-cvf&nbsp;&nbsp; /home/www/images.tar &nbsp;&nbsp;&nbsp;/home/www/images 
+ &nbsp;&nbsp; &nbsp;&nbsp; tar &nbsp;&nbsp;-zcvf &nbsp;&nbsp;/home/www/images.tar.gz&nbsp;&nbsp;&nbsp;/home/www/images  
+
+ <br>
+===解压==
+ &nbsp;&nbsp; &nbsp;&nbsp; tar -zxvf /home/images.tar.gz 
+ &nbsp;&nbsp; &nbsp;&nbsp; tar -zxvf /home/images.tar.gz -C&nbsp;&nbsp; /abc
+ &nbsp;&nbsp; &nbsp;&nbsp; tar xvf filename.tar -C&nbsp;&nbsp; /abc<br> 
+</p></br>
+<a href="http://tianqi.2345.com/t/tqbb/tqbb.htm" target="_blank" style="font-size: 16px;color: #3fa7cb;">2345天气预报</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://i.youku.com/i/UMzA2MjY1MzYyMA==/videos?spm=a2hzp.8244740.0.0" target="_blank" style="font-size: 14px;color: #00c;">玩车TV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://my.vultr.com/" target="_blank" style="font-size: 14px;color: #00c;">vultr</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://note.youdao.com/oldweb/list?" target="_blank" style="font-size: 14px;color: #00c;">有道云笔记</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.smzdm.com/" target="_blank" style="font-size: 14px;color: #00c;">什么值得买</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.chiphell.com/forum.php?mod=guide&view=new" target="_blank" style="font-size: 14px;color: #00c;">chiphell</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.taobao.com/" target="_blank" style="font-size: 14px;color: #00c;">淘宝</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.suning.com/" target="_blank" style="font-size: 14px;color: #00c;">苏宁</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.tonymacx86.com/home.php" target="_blank" style="font-size: 14px;color: #00c;">tonymacx86</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.zhibo8.cc/" target="_blank" style="font-size: 14px;color: #00c;">直播8</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+</body>
